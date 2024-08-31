@@ -1,0 +1,44 @@
+.hero-wrapper {
+ height: auto;
+}
+
+.hero--btn {
+ // color: $light;
+ // background-color: $primary;
+ border: none;
+ border-radius: 0;
+}
+
+.hero--btn:hover {
+ // color: $primary;
+ // background-color: $secondary;
+}
+
+.hero_header--orange {
+ color: #f7c08a;
+}
+
+.hero_header--bold {
+ font-weight: bold;
+}
+
+.image {
+ width: 100vw;
+ height: 80vh;
+}
+
+.img {
+ width: 100%;
+ height: 100%;
+}
+
+.jumbotron--hero {
+ background-image: url(".././assets/images/showcase.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border-radius: 0;
+ border: none;
+ width: 100%;
+ width: 100%;
+}
