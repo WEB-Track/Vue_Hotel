@@ -1,17 +1,28 @@
-.hero-wrapper {
- height: auto;
-}
+// @use .hero-wrapper {
+//  height: auto;
+// }
 
 .hero--btn {
- // color: $light;
- // background-color: $primary;
+ color: #f4f3f7e8;
+ background-color: #351313;
  border: none;
  border-radius: 0;
+ padding-left: 1.25rem;
+ padding-right: 1.25rem;
+ padding-top: 0.625rem;
+ padding-bottom: 0.625rem;
+ font-size: 1.125rem;
+ display: inline-block;
+ font-weight: 400;
+ text-align: center;
+ vertical-align: middle;
+ user-select: none;
+ transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .hero--btn:hover {
- // color: $primary;
- // background-color: $secondary;
+ color: #351313;
+ background-color: #f3ceac;
 }
 
 .hero_header--orange {
@@ -33,6 +44,7 @@
 }
 
 .jumbotron--hero {
+ position: absolute;
  background-image: url(".././assets/images/showcase.jpg");
  background-repeat: no-repeat;
  background-size: cover;
@@ -40,5 +52,6 @@
  border-radius: 0;
  border: none;
  width: 100%;
- width: 100%;
+ height: 80%;
+ z-index: -1;
 }

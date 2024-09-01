@@ -1,9 +1,10 @@
 // Helper
 
 // Base
-@import './3-layout/reset';
+@use './2-base/reset';
+// @use './2-base/color';
 // Layout
 
 // Modules
-@import '../components/hero-sec.scss';
+@use '../components/hero-sec.scss';
 // @import '';

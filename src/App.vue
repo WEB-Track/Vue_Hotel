@@ -3,11 +3,12 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <section class="hero container-fluid" id="hero">
+  <section class="hero md:container" id="hero">
     <div class="row">
-      <div class="col-12 px-0">
+      <div class="columns-1 p-0 m-0">
         <div class="h-auto">
-          <div class="jumbotron jumbotron--hero text-center my-0 spacing_p-b-146 bg-transparent">
+          <img class="image jumbotron--hero" src="./assets/images/showcase.jpg">
+          <div class="justify-center max-h-40max-w-64">
             <h1 class="display-4 text-light hero_header--bold spacing_p-t-58">
               <span class="hero_header--orange">Enjoy</span> Your Stay
             </h1>
@@ -18,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
             <a class="btn btn-primary spacing_p-lr-20 spacing_p-tb-10 btn-lg font-18 hero--btn" href="about.html"
               role="button">About Our Hotel</a>
           </div>
+          </img>
         </div>
       </div>
     </div>
@@ -25,6 +27,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style lang="scss">
-@import './vue-app.scss';
 @import './scss/main.scss';
+@import './vue-app.scss';
 </style>
