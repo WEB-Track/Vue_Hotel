@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
-  <section class="hero w-full mx-autp" id="hero">
+ <section class="hero w-full mx-autp" id="hero">
     <div class="flex">
       <div class="flex-1 p-0 m-0">
         <div class="h-auto content-center">
@@ -29,6 +29,5 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style lang="scss">
-@import './scss/main.scss';
-@import './vue-app.scss';
+@import './menu-sec.scss';
 </style>

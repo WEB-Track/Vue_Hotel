@@ -7,11 +7,6 @@
  background-color: #351313;
  border: none;
  border-radius: 0;
- padding-left: 1.25rem;
- padding-right: 1.25rem;
- padding-top: 0.625rem;
- padding-bottom: 0.625rem;
- font-size: 1.125rem;
  display: inline-block;
  font-weight: 400;
  text-align: center;
@@ -23,6 +18,8 @@
 .hero--btn:hover {
  color: #351313;
  background-color: #f3ceac;
+ border-width: 1px;
+ border-color: #d08841;
 }
 
 .hero_header--orange {
@@ -33,7 +30,7 @@
  font-weight: bold;
 }
 
-.image {
+.hero--image {
  width: 100vw;
  height: 80vh;
 }
@@ -43,7 +40,7 @@
  height: 100%;
 }
 
-.jumbotron--hero {
+.hero--jumbotron {
  position: absolute;
  background-image: url(".././assets/images/showcase.jpg");
  background-repeat: no-repeat;
@@ -54,4 +51,12 @@
  width: 100%;
  height: 80%;
  z-index: -1;
+}
+
+.hero_mt_spacing {
+ margin-top: calc(50vh - 200px);
+}
+
+.hero_text {
+ color: antiquewhite;
 }

@@ -3,26 +3,29 @@
 </script>
 
 <template>
- <section class="hero container-fluid" id="hero">
-  <div class="row">
-   <div class="col-12 px-0">
-    <div class="hero-wrapper">
-     <div class="jumbotron jumbotron--hero text-center my-0 spacing_p-b-146 bg-transparent">
-      <h1 class="display-4 text-light hero_header--bold spacing_p-t-58">
-       <span class="hero_header--orange">Enjoy</span> Your Stay
-      </h1>
-      <p class="lead text-light pb-3">
-       Come!! Relax, See The Sites and Enjoy Yourself. While we pamper
-       you.
-      </p>
-      <a class="btn btn-primary spacing_p-lr-20 spacing_p-tb-10 btn-lg font-18 hero--btn" href="about.html"
-       role="button">About Our Hotel</a>
-     </div>
+ <section class="hero w-full mx-autp" id="hero">
+    <div class="flex">
+      <div class="flex-1 p-0 m-0">
+        <div class="h-auto content-center">
+          <img class="hero--image hero--jumbotron" src="./assets/images/showcase.jpg">
+          <div class="w-full hero_mt_spacing">
+            <h1 class="text-center text-6xl font-bold px-px text-slate-50 hero_text">
+              <span class="text-center hero_header--orange">Enjoy</span> Your Stay
+            </h1>
+            <p class="text-center pb-4 mb-4 text-xl md:text-3xl text-light pb-3 px-px">
+              Come!! Relax, See The Sites and Enjoy Yourself. While we pamper
+              you.
+            </p>
+            <div class="flex justify-center">
+            <a class="hero--btn py-2 px-3.5 text-xl md:py-3 md:px-4" href="about.html"
+              role="button">About Our Hotel</a>
+            </div>
+          </div>
+          </img>
+        </div>
+      </div>
     </div>
-   </div>
-  </div>
- </section>
-
+  </section>
 </template>
 
 <style lang="scss">
