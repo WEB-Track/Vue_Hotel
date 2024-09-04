@@ -3,29 +3,39 @@
 </script>
 
 <template>
- <section class="hero w-full mx-autp" id="hero">
-    <div class="flex">
-      <div class="flex-1 p-0 m-0">
-        <div class="h-auto content-center">
-          <img class="hero--image hero--jumbotron" src="./assets/images/showcase.jpg">
-          <div class="w-full hero_mt_spacing">
-            <h1 class="text-center text-6xl font-bold px-px text-slate-50 hero_text">
-              <span class="text-center hero_header--orange">Enjoy</span> Your Stay
-            </h1>
-            <p class="text-center pb-4 mb-4 text-xl md:text-3xl text-light pb-3 px-px">
-              Come!! Relax, See The Sites and Enjoy Yourself. While we pamper
-              you.
-            </p>
-            <div class="flex justify-center">
-            <a class="hero--btn py-2 px-3.5 text-xl md:py-3 md:px-4" href="about.html"
-              role="button">About Our Hotel</a>
-            </div>
+ <header class="header">
+      <div class="header-wrapper">
+        <nav class="navbar-expand-sm navbar navbar-dark bg-primary py-0">
+          <a class="navbar-brand py-2" href="index.html">Brightling Hotel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link px-4 py-4 nav-link--active" href="index.html"
+                  >Home<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 py-4" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4 py-4" href="contact.html">Contact</a>
+              </li>
+            </ul>
           </div>
-          </img>
-        </div>
+        </nav>
       </div>
-    </div>
-  </section>
+    </header>
 </template>
 
 <style lang="scss">
