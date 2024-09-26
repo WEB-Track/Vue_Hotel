@@ -2,8 +2,8 @@
  <section class="hero w-full mx-autp" id="hero">
     <div class="flex">
       <div class="flex-1 p-0 m-0">
-        <div class="flex w-screen h-10/12 relative">
-          <img class="hero--jumbotron" src="/public/showcase.jpg">
+        <div class="w-screen h-10/12 relative">
+          <img class="hero--jumbotron" src="/showcase.jpg">
           <div class="absolute hero_mt_spacing">
             <h1 class="text-center text-6xl font-bold px-px text-slate-50 hero_text">
               <span class="text-center hero_header--orange">Enjoy</span> Your Stay
