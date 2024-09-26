@@ -21,7 +21,7 @@
               role="button">About Our Hotel</a>
             </div>
           </div>
-          </img>
+          <!-- </img> -->
         </div>
       </div>
     </div>

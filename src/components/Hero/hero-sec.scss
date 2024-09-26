@@ -32,7 +32,7 @@
 
 .hero--image {
  width: 100vw;
- height: 80vh;
+ height: 100vh;
 }
 
 .img {
@@ -42,14 +42,14 @@
 
 .hero--jumbotron {
  position: absolute;
- background-image: url(".././assets/images/showcase.jpg");
+ // background-image: url("/public/showcase.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
  border-radius: 0;
  border: none;
  width: 100%;
- height: 80%;
+ height: 100%;
  z-index: -1;
 }
 
