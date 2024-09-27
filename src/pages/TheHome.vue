@@ -1,5 +1,14 @@
+  <script>
+   import TheMenu from '../components/Menu/TheMenu.vue'
+   import TheHero from '../components/Hero/TheHero.vue'
+   export default{
+    components:{TheMenu, TheHero},
+   }
+  </script>
+
 <template>
  <div>
-  <h1>Home Page</h1>
+  <TheMenu/>
+  <TheHero/>
  </div>
 </template>

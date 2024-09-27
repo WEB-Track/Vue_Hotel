@@ -42,19 +42,19 @@
 
 .hero--jumbotron {
  position: absolute;
- // background-image: url("/public/showcase.jpg");
+ background-image: url("/showcase.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
  border-radius: 0;
  border: none;
  width: 100%;
- // height: auto;
+ height: 90vh;
  z-index: -1;
 }
 
 .hero_mt_spacing {
- margin-top: calc(50vh - 200px);
+ margin-top: calc(50vh - 175px);
 }
 
 .hero_text {

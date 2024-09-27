@@ -13,7 +13,8 @@
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+            <img class="h-8 w-auto" src="/public/Logo_Light.png" alt="Brightling Hotel" />
+            <h1 class="pl-1 text-base sm:text-2xl sm:pl-1 md:text-3xl font-semibold">Brightling Hotel</h1>
           </div>
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
