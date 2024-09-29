@@ -13,11 +13,11 @@
         </div>
         <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="/public/Logo_Light.png" alt="Brightling Hotel" />
-            <h1 class="pl-1 text-base sm:text-2xl sm:pl-1 md:text-3xl font-semibold">Brightling Hotel</h1>
+            <img class="h-8 w-auto" src="/Logo_Light.png" alt="Brightling Hotel" />
+            <h1 class="pl-1 text-2xl sm:pl-1 md:text-3xl font-semibold">Brightling Hotel</h1>
           </div>
           <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 pt-3.5 md:pt-5">
               <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'bg-neutral-800 text-white' : 'text-neutral-500 hover:bg-neutral-600 hover:text-white', 'rounded-md px-3 py-2 text-sm font-semibold']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
             </div>
           </div>

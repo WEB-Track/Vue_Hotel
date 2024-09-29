@@ -3,17 +3,19 @@
    import TheHero from '../components/Hero/TheHero.vue'
    import TwoColumn from '../components/TwoColumn.vue'
    import ThreeColumn from '../components/ThreeColumn.vue'
+   import TheFooter from '../components/TheFooter.vue'
    export default{
-    components:{TheMenu, TwoColumn, ThreeColumn,TheHero},
+    components:{TheMenu, TheFooter, TwoColumn, ThreeColumn, TheHero},
    }
   </script>
 
 <template>
- <div class="flex flex-col">
+ <div>
   <TheMenu/>
   <TheHero/>
   <TwoColumn/>
   <ThreeColumn/>
+  <TheFooter/>
  </div>
  
 </template>

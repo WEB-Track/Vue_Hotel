@@ -15,6 +15,10 @@
  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.hero--btn-container {
+ padding-bottom: calc(50vh - 250px);
+}
+
 .hero--btn:hover {
  color: #351313;
  background-color: #f3ceac;
@@ -41,20 +45,13 @@
 }
 
 .hero--jumbotron {
- position: absolute;
  background-image: url("/showcase.jpg");
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- border-radius: 0;
- border: none;
- width: 100%;
- height: 90vh;
+ min-height: 300px;
  z-index: -1;
 }
 
 .hero_mt_spacing {
- margin-top: calc(50vh - 175px);
+ padding-top: calc(50vh - 250px);
 }
 
 .hero_text {
