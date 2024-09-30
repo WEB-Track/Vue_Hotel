@@ -1,14 +1,16 @@
 <script>
-  import TheHome from './pages/TheHome.vue'
-  import TheAbout from './pages/TheAbout.vue'
-  import TheContact from './pages/TheContact.vue'
+  // import TheHome from './pages/TheHome.vue'
+  // import TheAbout from './pages/TheAbout.vue'
+  // import TheContact from './pages/TheContact.vue'
+    import TheMenu from './components/Menu/TheMenu.vue';
   export default{
-    components:{TheHome, TheAbout, TheContact}
+    components:{TheMenu}
   }
 </script>
 
 <template>
-  <TheHome/>
+  <TheMenu/>
+  <router-view/>
 </template>
 
 <style lang="scss">
