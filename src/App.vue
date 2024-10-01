@@ -10,7 +10,7 @@
 
 <template>
   <TheMenu/>
-  <router-view/>
+  <RouterView/>
 </template>
 
 <style lang="scss">
